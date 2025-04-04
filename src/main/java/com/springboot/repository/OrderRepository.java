@@ -1,0 +1,18 @@
+package com.springboot.repository;
+
+import com.springboot.entities.Order;
+import com.springboot.entities.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+import java.util.Optional;
+
+@Repository
+public interface OrderRepository extends JpaRepository<Order,String> {
+    List<Order> findByUser(User user);
+
+    Optional<Order> findByOrderReference(String ord12345);
+
+    Optional<Order> findByCustomerEmail(String mail);
+}
