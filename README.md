@@ -104,17 +104,23 @@ src/
 
 ```
 
-🛡 Security
+### 🛡 Security
 
-Uses Spring Security filters with JWT token parsing
-Role-based access restrictions
-Secure password storage with BCrypt
-CSRF protection disabled for stateless APIs
+- ✅ Uses **Spring Security** filters for authentication and authorization  
+- 🔐 Implements **JWT token parsing** for stateless authentication  
+- 👥 Enforces **role-based access control** (e.g., Admin, Seller, Customer)  
+- 🔒 Uses **BCrypt** for secure password hashing  
+- 🚫 **CSRF protection** disabled (since the API is stateless and uses JWT)  
 
-🧪 Testing
+---
 
-Unit and integration testing using JUnit and Mockito
-Test coverage for services, controllers, and utilities
+### 🧪 Testing
+
+- 🧪 **Unit tests** using JUnit and Mockito  
+- 🔄 **Integration tests** for service and controller layers  
+- 📈 **Test coverage** includes services, controllers, utilities, and edge cases  
+- 🔍 Mocking external dependencies using Mockito for isolated testing  
+
 
 
 
