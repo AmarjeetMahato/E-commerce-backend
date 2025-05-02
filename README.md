@@ -75,7 +75,8 @@ Docker & Docker Compose
 
 🐳 Run with Docker
 
-``` docker-compose up --build 
+```
+ docker-compose up --build 
 ```
 
 🛠 Manual Setup (without Docker)
