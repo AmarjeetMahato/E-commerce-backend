@@ -82,7 +82,7 @@ Docker & Docker Compose
 🛠 Manual Setup (without Docker)
 ```
 # Clone repo
-git clone https://github.com/your-username/ecommerce-backend.git
+https://github.com/AmarjeetMahato/E-commerce-backend.git
 cd ecommerce-backend
 
 # Build and run
